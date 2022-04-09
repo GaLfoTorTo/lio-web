@@ -19,8 +19,8 @@ class PostsSeeder extends Seeder
                 'usuario_id' => 1,
                 'legenda' => 'My Picture '.$i,
                 'post' => '/uploads/posts/first_img.jpg',
-                'created_at'=> date('YmdHis'),
-                'updated_at'=> date('YmdHis')
+                'created_at'=> date('Y-m-d'),
+                'updated_at'=> date('Y-m-d')
             ]);
         }
     }
